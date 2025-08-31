@@ -22,11 +22,11 @@
 Run the following commands to update and configure your system:  
 
 ```bash
-wget https://sentrynet.work/ubuntu.sh
+wget https://github.com/RubyEyedReaper/angry/blob/main/ubuntu.sh
 sudo chmod +x ubuntu.sh
 sudo ./ubuntu.sh
 ```
-
+System will download updates, Set device static ip and then restarts
 ---
 
 ## 4. Install Pterodactyl
