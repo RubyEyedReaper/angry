@@ -25,7 +25,6 @@ Run the following commands to update and configure your system:
 wget https://sentrynet.work/ubuntu.sh
 sudo chmod +x ubuntu.sh
 sudo ./ubuntu.sh
-sudo ufw status
 ```
 
 ---
@@ -43,6 +42,7 @@ Enable and start the **wings** service:
 ```bash
 sudo systemctl enable wings
 sudo systemctl start wings
+sudo ufw status
 ```
 
 ---
